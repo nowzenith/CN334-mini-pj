@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.responsive-text {
+  font-size: 30px; /* A default size */
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+  .responsive-text {
+    font-size: 40px;
+  }
+}
+
+/* Larger screens */
+@media (min-width: 1200px) {
+  .responsive-text {
+    font-size: 50px;
+  }
+}
+
+.shop-now-button {
+    background-color: #007bff; /* Blue color from image */
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold;
+    display: flex; /* Allow space for arrow next to text */
+    align-items: center; /* Align text and arrow vertically */
+    height: 40px; /* Match image height */
+  }
+  
+  .shop-now-button .arrow {
+    margin-left: 10px; /* Adjust spacing between text and arrow */
+  }
+  
