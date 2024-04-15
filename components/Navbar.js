@@ -11,7 +11,7 @@ import {
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Products', href: '/test' },
+  { name: 'Products', href: '/product' },
   { name: 'Cart', href: '/test' },
   { name: 'Checkout', href: '/test' },
 ];
