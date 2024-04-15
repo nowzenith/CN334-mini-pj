@@ -2,7 +2,7 @@ import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="bg-orange-200">
+    <div className="bg-[#fefcfa]">
       <Component {...pageProps}/>
     </div>
    );

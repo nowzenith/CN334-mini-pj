@@ -35,4 +35,113 @@
   .shop-now-button .arrow {
     margin-left: 10px; /* Adjust spacing between text and arrow */
   }
+  .four-box-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%; /* Maintain full width */
+    margin: 0 auto; /* Center the row horizontally within its container */
+  }
   
+  .four-box-row .box {
+    margin-bottom:20px;
+    /* Individual box styles */
+    width: 250px; /* Adjust width based on number of boxes and desired spacing */
+    background-color: #f5f5f5; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    overflow: hidden; /* Prevent content from overflowing the box */
+  }
+  
+  .box {
+    width: 200px; /* Set the desired fixed width */
+    border: none; /* Remove border */
+    border-radius: 20px; /* Maintain rounded corners */
+    background-position: center; /* Center the image within the box */
+    color: #41403E; /* Text color (white for better visibility on the image) */
+    text-align: center; /* Maintain centered text alignment */
+    justify-content: center; /* Vertically center content within the box */
+    align-items: center; /* Horizontally center content within the box */
+  }
+  
+  .box .text-overlay {
+    /* Styles for the text overlay (optional) */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    /* padding: 10px; /* Adjust padding as needed */
+    /* margin: 0 auto; /* Center the text overlay horizontally */
+    width: 50%; /* Adjust width as needed */ /* Optional for a narrower overlay */
+  }
+  
+ .topic{
+  color: #41403E;
+  font-size: 30px;
+  font-family: chilanka;
+ }
+ .container p{
+  color:#908F8D
+ }
+ .btn-primary{
+  background-color: #f5f5f5; /* Make buttons white */
+   color: #333; /* Set button text color to dark gray */
+   padding: 10px 10px; /* Increase button padding */
+ }
+ .btn-secondary {
+   background-color: #f5f5f5; /* Make buttons white */
+   color: #333; /* Set button text color to dark gray */
+   padding: 10px 10px; /* Increase button padding */
+   border-left: 1px solid #000;
+ }
+ .btn-all_product:hover,
+ .btn-best_seller:hover {
+  background-color: #DEAD6F;
+}
+.btn-primary:hover,
+.btn-secondary:hover {
+ color:#DEAD6F
+}
+
+ .btn-best_seller,
+ .btn-all_product {
+  background-color: #fff; /* White background */
+  color: #333; /* Dark gray text */
+  border: 2px solid #ddd; /* Solid light gray border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Increased padding */
+  cursor: pointer; /* Indicate clickable behavior */
+ }
+ .section-header {
+  margin-top: 2rem; /* Adjust the value as needed */
+}
+.text-container {
+  border-bottom: 1px solid #000; /* Adjust color and thickness as needed */
+  padding-bottom: 10px; /* Optional padding to create space for the border */
+}
+.detail{
+  /* padding-left: 6em;
+  padding-right: 6em; */
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 8px;
+  padding-top: 10px;
+}
+.rounded {
+  border-radius: 25px;  /* Adjust value as needed (e.g., 10px for more rounded corners) */
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+footer{
+ background-color: #F9F3EC;
+}
+footer p{
+  padding-top:10px
+}
+.line_down{
+  color: #DEAD6F
+}
+Html{
+  background-color: #F9F3EC;
+}
+
+

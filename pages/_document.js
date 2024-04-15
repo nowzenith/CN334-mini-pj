@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html>
       <Head />
-      <body className="bg-gray-200 font-roboto tracking-wider">
+      <body className="tracking-wider">
         <Main />
         <NextScript />
       </body>

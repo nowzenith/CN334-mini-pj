@@ -13,12 +13,12 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Products', href: '/product' },
   { name: 'Cart', href: '/test' },
-  { name: 'Checkout', href: '/test' },
+  { name: 'Checkout', href: '/detail' },
 ];
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-white shadow-sm">
+    <Disclosure as="nav" className="bg-white shadow-sm mb-[2px]">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-8 lg:px-12">
