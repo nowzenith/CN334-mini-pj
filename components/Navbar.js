@@ -12,7 +12,7 @@ import {
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Products', href: '/product' },
-  { name: 'Cart', href: '/test' },
+  { name: 'Cart', href: '/cart' },
   { name: 'Checkout', href: '/detail' },
 ];
 
