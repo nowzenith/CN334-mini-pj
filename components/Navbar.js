@@ -13,7 +13,8 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Products', href: '/product' },
   { name: 'Cart', href: '/cart' },
-  { name: 'Checkout', href: '/detail' },
+  // { name: 'Checkout', href: '/detail' },
+  { name: 'Checkout', href: '/checkout' },
 ];
 
 export default function Navbar() {
@@ -50,7 +51,7 @@ export default function Navbar() {
                 <div className="hidden md:flex items-center">
                 {navigation.map(({ name, href }) => (
                     <Link href={href} key={name}>
-                      <a className="inline-flex items-center px-8 py-2 font-medium rounded-md text-gray-400 hover:text-gray-700 duration-300">
+                      <a className="inline-flex items-center px-8 py-2 font-medium rounded-md text-gray-500 colored-hover duration-300">
                         <span>{name}</span>
                       </a>
                     </Link>

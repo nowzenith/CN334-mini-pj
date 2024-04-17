@@ -4,7 +4,8 @@ export default function Document() {
   return (
     <Html>
       <Head />
-      <body className="tracking-wider">
+      <link href='https://fonts.googleapis.com/css?family=Chilanka' rel='stylesheet'></link>
+      <body>
         <Main />
         <NextScript />
       </body>

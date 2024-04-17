@@ -19,14 +19,16 @@ export default function Home() {
             />
           </div>
           <div className="w-full md:w-1/2 flex flex-col justify-center space-y-4 pl-4">
-            <p className="text-xm font-bold text-gray-800">Save 20-85% OFF</p>
-            <p className="text-7xl text-gray-700 responsive-text">Best</p>
-            <p className="text-7xl text-gray-700 responsive-text">Destination For</p>
-            <p className="text-7xl text-gray-700 responsive-text">Your Pets</p>
-            <div className='flex items-center justify-center'><button className="bg-orange-400 text-black px-5 py-3 font-bold tracking-widest text-lg rounded-full w-fit">Shop Now</button></div>
+            <p className="text-xm colored-home py-5">Save 20-85% OFF</p>
+            <p className="text-7xl text-gray-600 responsive-text">Best</p>
+            <p className="text-7xl text-gray-600 responsive-text">Destination For</p>
+            <p className="text-7xl responsive-text colored-home">Your Pets</p>
+            <div className='flex items-center justify-center'>
+              <button className="px-2 py-3 tracking-widest text-lg rounded-full w-fit button-home">Shop Now ➤ </button>
             </div>
           </div>
         </div>
       </div>
+    </div>
   );
 }
