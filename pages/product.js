@@ -7,7 +7,21 @@ export default function ProductPage() {
   return (
     <div>
       <Navbar />
-      <div className="max-w-7xl mx-auto px-8 lg:px-12">
+      <div className="max-w-7xl mx-auto px-8 lg:px-12 flex justify-between">
+        <div className="container-xxl py-6">
+          <div className="container">
+            <div className="row g-0 gx- align-items-end">
+              <div className="section-header text-start mb-4">
+                <h1 className='topic'>Our Products</h1>
+                <p>Subscribe to our newsletter to getupdates about our grand offers</p>
+              </div>
+            </div>
+            <div className="col-lg-6 d-flex justify-content-end py-6" style={{ marginLeft: 'auto' }}>
+              <button className="btn btn-best_seller" style={{ marginRight: '10px' }}>Best Seller</button>
+              <button className="btn btn-all_product">All Products</button>
+            </div>
+          </div>
+        </div>
         <div className="container-xxl py-6">
           <div className="container">
             <div className="row g-0 gx- align-items-end">
